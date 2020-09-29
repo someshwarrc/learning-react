@@ -22,6 +22,8 @@ class Input extends React.Component {
           name="input"
           onChange={(e) => this.change(e.target.value)}
         />
+        <p>See the input in real-time</p>
+        <h2>{this.state.value}</h2>
       </div>
     );
   }
