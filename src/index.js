@@ -8,8 +8,6 @@ function tick() {
   ReactDOM.render(
     <React.StrictMode>
       <App />
-      <App />
-      <App />
     </React.StrictMode>,
     rootElement
   );
